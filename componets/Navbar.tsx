@@ -30,12 +30,12 @@ const Navbar = () => {
       <motion.nav 
         animate={{
           boxShadow: scrolled ? "var(--shadow-aceternity)" : "none",
-          width:scrolled ? "45%" : "100%",
+          width:scrolled ? "43%" : "100%",
           y: scrolled ? 10 : 0,
         }}
         transition={{
           duration: 0.2,
-          ease: "easeInOut"
+          ease: "linear"
         }}
         
         className="fixed inset-x-0 top-0 mx-auto px-2 py-3 flex max-w-4xl items-center justify-between rounded-full p-2 backdrop-blur-xs"
